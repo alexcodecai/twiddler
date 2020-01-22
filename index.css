@@ -1,0 +1,128 @@
+body {
+  background: linear-gradient(pink, #22c1c3, #fdbb2d) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+    width: 57%;
+    margin: auto;
+}
+
+.title {
+   color: black;
+   font-family: "Courier New";
+   text-transform: capitalize;
+   font-size: 50px;
+   line-height: 50px;
+   font-weight: normal;
+   text-align: center;
+   text-shadow: 0 1px 1px #fff;
+}
+
+.user {
+  display: inline;
+  font-weight: bold;
+}
+
+.message {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.dateTime {
+  margin-left: 10px;
+  display: inline;
+  color: gray;
+}
+
+.highlight {
+  text-decoration: underline;
+  color: pink;
+  cursor: pointer;
+}
+
+.btn {
+margin-top: 40px;
+padding: 20px 20px 12px;
+font-size: 15px;
+background-color: #F36C8C;
+font-weight: bold;
+text-shadow: 1px 1px #F36C8C;
+color: blue;
+border-radius: 200px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border: 1px solid #F36C8C;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.timeline {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+}
+
+#margin {
+  color: white;
+  margin-top: 20px;
+    margin-left:12px;
+    margin-bottom:20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#username {
+  margin-left: 10px;
+    background-color:transparent;
+    border: 0;
+    outline: 0;
+    border-bottom:3px solid blue;
+    color: blue;
+    font-size:20px;
+    font-family:Courier, monospace;
+    height:28px;
+    font-weight:bold;
+    width:220px;
+}
+
+
+#text {
+    width:450px;
+    overflow:hidden;
+    background-color:transparent;
+    color:#FFF;
+    font-family:Courier, monospace;
+    font-weight:normal;
+    font-size:15px;
+    resize:none;
+    line-height:40px;
+    margin-top: 20px;
+    padding: 45 100 34 100;
+/*    background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);*/
+    background-repeat: repeat-y, repeat;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    -webkit-box-shadow: 0px 2px 14px #000;
+    box-shadow: 0px 2px 14px #000;
+    border-top:1px solid #FFF;
+    border-bottom:1px solid #FFF;
+}
+
+.submit {
+  display: block;
+  float: top;
+}
+
+
+
+
+
